@@ -2,18 +2,24 @@
 
 Projeto desenvolvido para a disciplina **Software Product: Analysis, Specification, Project & Implementation**.
 
-## Objetivo
+---
+
+# Objetivo
 
 Desenvolver um dashboard de análise de vendas capaz de identificar os produtos mais vendidos e analisar a participação das categorias e marcas no faturamento.
 
-## Tecnologias Utilizadas
+---
 
-- Power BI
-- Power Query
-- DAX
-- Modelagem de dados
+# Tecnologias Utilizadas
 
-## Base de Dados
+- Power BI  
+- Power Query  
+- DAX  
+- Modelagem de dados  
+
+---
+
+# Base de Dados
 
 O projeto utiliza uma base de dados de vendas contendo registros dos anos:
 
@@ -23,58 +29,78 @@ O projeto utiliza uma base de dados de vendas contendo registros dos anos:
 
 A base inclui informações como:
 
-- Data da venda
-- Produto
-- Cliente
-- Loja
-- Quantidade vendida
-- Preço unitário
-- Devoluções
+- Data da venda  
+- Produto  
+- Cliente  
+- Loja  
+- Quantidade vendida  
+- Preço unitário  
+- Devoluções  
 
-## Modelagem de Dados
+---
 
-Foi utilizado um modelo estrela composto por:
+# Modelagem de Dados
 
-### Tabela Fato
+Foi utilizado um **modelo estrela**, composto por:
+
+## Tabela Fato
 
 **Base de Vendas**
 
 Contém os registros de vendas e métricas principais.
 
-### Tabelas Dimensão
+## Tabelas Dimensão
 
-- Cadastro de Produtos
-- Cadastro de Clientes
-- Cadastro de Lojas
+- Cadastro de Produtos  
+- Cadastro de Clientes  
+- Cadastro de Lojas  
 
-## Principais Métricas
+---
 
-- Receita Total
-- Total de Produtos Vendidos
-- Ticket Médio
-- Percentual de Devoluções
+# Principais Métricas
 
-## Análises Desenvolvidas
+O dashboard apresenta indicadores como:
+
+- Receita Total  
+- Total de Produtos Vendidos  
+- Ticket Médio  
+- Percentual de Devoluções  
+
+---
+
+# Análises Desenvolvidas
 
 O dashboard apresenta as seguintes análises:
 
-- Top 10 produtos por faturamento
-- Participação das categorias no faturamento
-- Quantidade vendida por produto
-- Ranking de marcas por faturamento
+- Top 10 produtos por faturamento  
+- Participação das categorias no faturamento  
+- Quantidade vendida por produto  
+- Ranking de marcas por faturamento  
 
-## Interatividade
+---
+
+# Dashboard
+
+![Dashboard](docs/Dashboard.png)
+
+---
+
+# Interatividade
 
 O dashboard possui um painel interativo de filtros que permite filtrar os dados por:
 
-- Ano
-- Categoria
-- Marca
+- Ano  
+- Categoria  
+- Marca  
 
-## Funcionalidade da AC1
+---
+
+# Funcionalidade da AC1
 
 A funcionalidade apresentada na AC1 é a **análise de vendas por produto**, permitindo identificar os produtos com maior faturamento e volume de vendas.
 
-## Autor
+---
 
-Thales de Sousa Sampaio
+# Autor
+
+**Thales de Sousa Sampaio**
