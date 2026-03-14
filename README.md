@@ -2,64 +2,41 @@
 
 Projeto desenvolvido para a disciplina **Software Product: Analysis, Specification, Project & Implementation**.
 
----
-
-# Objetivo
-
-Desenvolver um dashboard de análise de vendas capaz de identificar os produtos mais vendidos e analisar a participação das categorias e marcas no faturamento.
+Este projeto apresenta um dashboard analítico desenvolvido em **Power BI** com o objetivo de analisar o desempenho de vendas e identificar padrões relevantes nos dados.
 
 ---
 
-# Tecnologias Utilizadas
+## Objetivo
 
-- Power BI  
-- Power Query  
-- DAX  
-- Modelagem de dados  
+Desenvolver um dashboard de análise de vendas capaz de identificar:
 
----
-
-# Base de Dados
-
-O projeto utiliza uma base de dados de vendas contendo registros dos anos:
-
-- 2022
-- 2023
-- 2024
-
-A base inclui informações como:
-
-- Data da venda  
-- Produto  
-- Cliente  
-- Loja  
-- Quantidade vendida  
-- Preço unitário  
-- Devoluções  
+- Produtos com maior faturamento
+- Volume de vendas por produto
+- Participação das categorias no faturamento
+- Marcas com maior geração de receita
 
 ---
 
-# Modelagem de Dados
+## Tecnologias Utilizadas
 
-Foi utilizado um **modelo estrela**, composto por:
-
-## Tabela Fato
-
-**Base de Vendas**
-
-Contém os registros de vendas e métricas principais.
-
-## Tabelas Dimensão
-
-- Cadastro de Produtos  
-- Cadastro de Clientes  
-- Cadastro de Lojas  
+- Power BI
+- Power Query
+- DAX
+- Modelagem de Dados (Modelo Estrela)
 
 ---
 
-# Principais Métricas
+## Dashboard
 
-O dashboard apresenta indicadores como:
+<p align="center">
+  <img src="docs/dashboard.png" width="900">
+</p>
+
+O dashboard apresenta indicadores e visualizações que permitem uma análise rápida do desempenho comercial.
+
+---
+
+## Principais Métricas
 
 - Receita Total  
 - Total de Produtos Vendidos  
@@ -68,39 +45,68 @@ O dashboard apresenta indicadores como:
 
 ---
 
-# Análises Desenvolvidas
+## Análises Desenvolvidas
 
-O dashboard apresenta as seguintes análises:
+O dashboard permite visualizar:
 
-- Top 10 produtos por faturamento  
-- Participação das categorias no faturamento  
-- Quantidade vendida por produto  
-- Ranking de marcas por faturamento  
-
----
-
-# Dashboard
-
-![Dashboard](docs/Dashboard.png)
+- Top 10 produtos por faturamento
+- Participação das categorias no faturamento
+- Quantidade vendida por produto
+- Ranking de marcas por faturamento
 
 ---
 
-# Interatividade
+## Interatividade
 
-O dashboard possui um painel interativo de filtros que permite filtrar os dados por:
+O dashboard possui um painel de filtros que permite explorar os dados por:
 
-- Ano  
-- Categoria  
-- Marca  
-
----
-
-# Funcionalidade da AC1
-
-A funcionalidade apresentada na AC1 é a **análise de vendas por produto**, permitindo identificar os produtos com maior faturamento e volume de vendas.
+- Ano
+- Categoria
+- Marca
 
 ---
 
-# Autor
+## Estrutura do Projeto
+
+```
+Sales-Analytics-Dashboard
+│
+├── dashboard
+│   └── Sales_Analytics_Dashboard.pbix
+│
+├── dataset
+│   ├── Base Vendas - 2022.xlsx
+│   ├── Base Vendas - 2023.xlsx
+│   ├── Base Vendas - 2024.xlsx
+│   ├── Cadastro Clientes.xlsx
+│   ├── Cadastro Lojas.xlsx
+│   └── Cadastro Produto.xlsx
+│
+└── docs
+    ├── dashboard.png
+    └── AC1_Relatorio.pdf
+```
+
+---
+
+## Download do Dashboard
+
+Clique abaixo para baixar o arquivo do Power BI:
+
+[Download do arquivo .PBIX](dashboard/Sales_Analytics_Dashboard.pbix)
+
+---
+
+## Documentação
+
+Relatório da atividade AC1 disponível em:
+
+[AC1 - Relatório do Projeto](docs/AC1_Relatorio.pdf)
+
+---
+
+## Autor
 
 **Thales de Sousa Sampaio**
+
+Projeto acadêmico desenvolvido para a disciplina **Software Product: Analysis, Specification, Project & Implementation**.
