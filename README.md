@@ -28,9 +28,7 @@ Desenvolver um dashboard de análise de vendas capaz de identificar:
 
 ## Dashboard
 
-<p align="center">
-  <img src="docs/dashboard.png" width="900">
-</p>
+![Dashboard](docs/Dashboard.png)
 
 O dashboard apresenta indicadores e visualizações que permitem uma análise rápida do desempenho comercial.
 
