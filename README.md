@@ -102,24 +102,27 @@ O dashboard permite análises dinâmicas através de:
 ---
 
 ## Estrutura do Projeto
+
+```
 Sales-Analytics-Dashboard
 │
 ├── dashboard
-│ └── Sales_Analytics_Dashboard.pbix
+│   └── Sales_Analytics_Dashboard.pbix
 │
 ├── dataset
-│ ├── Base Vendas - 2022.xlsx
-│ ├── Base Vendas - 2023.xlsx
-│ ├── Base Vendas - 2024.xlsx
-│ ├── Cadastro Clientes.xlsx
-│ ├── Cadastro Lojas.xlsx
-│ └── Cadastro Produto.xlsx
+│   ├── Base Vendas - 2022.xlsx
+│   ├── Base Vendas - 2023.xlsx
+│   ├── Base Vendas - 2024.xlsx
+│   ├── Cadastro Clientes.xlsx
+│   ├── Cadastro Lojas.xlsx
+│   └── Cadastro Produto.xlsx
 │
 └── docs
-├── dashboard.png
-├── dashboard_temporal.png
-├── AC1_Relatorio.pdf
-└── AC2_Relatorio.pdf
+    ├── dashboard.png
+    ├── dashboard_temporal.png
+    ├── AC1_Relatorio.pdf
+    └── AC2_Relatorio.pdf
+```
 
 
 ---
