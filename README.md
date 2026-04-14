@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para a disciplina **Software Product: Analysis, Specification, Project & Implementation**.
 
-Este projeto apresenta um dashboard analítico desenvolvido em **Power BI** com foco em análise exploratória e análise temporal de vendas.
+Este projeto apresenta um dashboard analítico desenvolvido em **Power BI**, com foco em análise exploratória e análise temporal de dados de vendas.
 
 ---
 
@@ -10,20 +10,20 @@ Este projeto apresenta um dashboard analítico desenvolvido em **Power BI** com 
 
 Desenvolver um dashboard interativo capaz de:
 
-- Identificar padrões de vendas
-- Analisar desempenho comercial
-- Avaliar crescimento ao longo do tempo
-- Apoiar a tomada de decisão baseada em dados
+- Identificar padrões de vendas  
+- Analisar desempenho comercial  
+- Avaliar crescimento ao longo do tempo  
+- Apoiar a tomada de decisão baseada em dados  
 
 ---
 
 ## Tecnologias Utilizadas
 
-- Power BI
-- Power Query
-- DAX
-- Modelagem de Dados (Modelo Estrela)
-- Tabela Calendário (Time Intelligence)
+- Power BI  
+- Power Query  
+- DAX  
+- Modelagem de Dados (Modelo Estrela)  
+- Tabela Calendário (Time Intelligence)  
 
 ---
 
@@ -31,13 +31,15 @@ Desenvolver um dashboard interativo capaz de:
 
 ### 🔹 Página 1 – Visão Geral (AC1)
 
-![Dashboard](docs/Dashboard.png)
+![Dashboard](docs/dashboard.png)
 
 Permite uma análise geral do desempenho comercial.
 
+---
+
 ### 🔹 Página 2 – Análise Temporal (AC2)
 
-![Dashboard Temporal](docs/Dashboard_Temporal.png)
+![Dashboard Temporal](docs/dashboard_temporal.png)
 
 Nova página com foco em evolução temporal das vendas.
 
@@ -57,17 +59,21 @@ Nova página com foco em evolução temporal das vendas.
 ## Análises Desenvolvidas
 
 ### 📊 AC1 – Análise Exploratória
-- Top 10 produtos por faturamento
-- Participação das categorias
-- Quantidade vendida por produto
-- Ranking de marcas
+
+- Top 10 produtos por faturamento  
+- Participação das categorias  
+- Quantidade vendida por produto  
+- Ranking de marcas  
+
+---
 
 ### 📈 AC2 – Análise Temporal
-- Receita ao longo do tempo
-- Volume de vendas ao longo do tempo
-- Comparação Ano a Ano (YoY)
-- Crescimento mensal (%)
-- Crescimento anual (%)
+
+- Receita ao longo do tempo  
+- Volume de vendas ao longo do tempo  
+- Comparação Ano a Ano (YoY)  
+- Crescimento mensal (%)  
+- Crescimento anual (%)  
 
 ---
 
@@ -75,22 +81,23 @@ Nova página com foco em evolução temporal das vendas.
 
 O dashboard permite análises dinâmicas através de:
 
-- Filtros por Categoria
-- Filtros por Marca
-- Navegação entre páginas (botões)
-- Interação entre visuais
+- Filtros por Categoria  
+- Filtros por Marca  
+- Navegação entre páginas (botões)  
+- Interação entre visuais  
 
 ---
 
 ## Modelagem de Dados
 
-- Modelo estrela (Star Schema)
-- Criação de Tabela Calendário
-- Relacionamento 1:N entre calendário e vendas
+- Modelo estrela (Star Schema)  
+- Criação de Tabela Calendário  
+- Relacionamento 1:N entre calendário e vendas  
+- Padronização da coluna de data para garantir integridade no relacionamento  
 - Uso de funções DAX de Time Intelligence:
-  - SAMEPERIODLASTYEAR
-  - DATEADD
-  - CALCULATE
+  - SAMEPERIODLASTYEAR  
+  - DATEADD  
+  - CALCULATE  
 
 ---
 
@@ -114,6 +121,7 @@ Sales-Analytics-Dashboard
 ├── AC1_Relatorio.pdf
 └── AC2_Relatorio.pdf
 
+
 ---
 
 ## Download do Dashboard
@@ -124,11 +132,10 @@ Sales-Analytics-Dashboard
 
 ## Documentação
 
-- [AC1 - Relatório](docs/AC1_Relatorio.pdf)
-- [AC2 - Relatório](docs/AC2_Relatorio.pdf)
+- [AC1 - Relatório](docs/AC1_Relatorio.pdf)  
+- [AC2 - Relatório](docs/AC2_Relatorio.pdf)  
 
 ---
-
 
 ## Autor
 
