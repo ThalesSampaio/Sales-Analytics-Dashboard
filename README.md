@@ -31,7 +31,7 @@ Desenvolver um dashboard interativo capaz de:
 
 ### 🔹 Página 1 – Visão Geral (AC1)
 
-![Dashboard](docs/dashboard.png)
+![Dashboard](docs/Dashboard.png)
 
 Permite uma análise geral do desempenho comercial.
 
