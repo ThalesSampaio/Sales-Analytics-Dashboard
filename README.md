@@ -129,11 +129,6 @@ Sales-Analytics-Dashboard
 
 ---
 
-## Vídeo de Apresentação
-
-(Adicionar link após upload)
-
----
 
 ## Autor
 
