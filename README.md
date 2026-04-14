@@ -39,7 +39,7 @@ Permite uma análise geral do desempenho comercial.
 
 ### 🔹 Página 2 – Análise Temporal (AC2)
 
-![Dashboard Temporal](docs/dashboard_temporal.png)
+![Dashboard Temporal](docs/dashboard_temporal.png.png)
 
 Nova página com foco em evolução temporal das vendas.
 
