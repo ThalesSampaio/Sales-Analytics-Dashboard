@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para a disciplina **Software Product: Analysis, Specification, Project & Implementation**.
 
-Este projeto apresenta um dashboard analítico desenvolvido em **Power BI**, com foco em análise exploratória e análise temporal de dados de vendas.
+Este projeto apresenta um dashboard analítico desenvolvido em **Power BI**, com foco em análise comercial, temporal e regional de dados de vendas.
 
 ---
 
@@ -13,6 +13,7 @@ Desenvolver um dashboard interativo capaz de:
 - Identificar padrões de vendas  
 - Analisar desempenho comercial  
 - Avaliar crescimento ao longo do tempo  
+- Analisar distribuição regional das vendas  
 - Apoiar a tomada de decisão baseada em dados  
 
 ---
@@ -23,87 +24,152 @@ Desenvolver um dashboard interativo capaz de:
 - Power Query  
 - DAX  
 - Modelagem de Dados (Modelo Estrela)  
-- Tabela Calendário (Time Intelligence)  
+- Time Intelligence  
+- Tabela Calendário  
 
 ---
 
-## Dashboards
+# 📊 Dashboards
 
-### 🔹 Página 1 – Visão Geral (AC1)
+## 🔹 Página 1 – Visão Geral (AC1)
 
-![Dashboard](docs/Dashboard.png)
+![Dashboard](docs/dashboard.png)
 
 Permite uma análise geral do desempenho comercial.
 
+### Funcionalidades:
+- Receita Total
+- Produtos Vendidos
+- Ticket Médio
+- Percentual de Devoluções
+- Top Produtos
+- Ranking de Marcas
+- Participação das Categorias
+
 ---
 
-### 🔹 Página 2 – Análise Temporal (AC2)
+## 🔹 Página 2 – Análise Temporal (AC2)
 
-![Dashboard Temporal](docs/dashboard_temporal.png.png)
+![Dashboard Temporal](docs/dashboard_temporal.png)
 
-Nova página com foco em evolução temporal das vendas.
+Página desenvolvida para análise da evolução temporal das vendas.
+
+### Funcionalidades:
+- Receita ao longo do tempo
+- Volume de vendas
+- Crescimento Mensal (%)
+- Crescimento Anual (%)
+- Comparação Ano a Ano (YoY)
 
 ---
 
-## Principais Métricas
+## 🔹 Página 3 – Performance Regional (AC3)
+
+![Dashboard Regional](docs/dashboard_regional.png)
+
+Página desenvolvida para análise geográfica e regional das vendas.
+
+### Funcionalidades:
+- Participação regional no faturamento
+- Volume de vendas por região
+- Receita por região no mapa
+- Ranking de países
+- Ranking de cidades
+- Navegação interativa entre páginas
+
+---
+
+# 📈 Principais Métricas
 
 - Receita Total  
-- Total de Produtos Vendidos  
+- Produtos Vendidos  
 - Ticket Médio  
 - Percentual de Devoluções  
 - Crescimento Mensal (%)  
 - Crescimento Anual (%)  
+- Total de Países  
+- Total de Cidades  
 
 ---
 
-## Análises Desenvolvidas
+# 📊 Análises Desenvolvidas
 
-### 📊 AC1 – Análise Exploratória
+## 📌 AC1 – Análise Exploratória
 
 - Top 10 produtos por faturamento  
 - Participação das categorias  
 - Quantidade vendida por produto  
 - Ranking de marcas  
+- Filtros interativos  
 
 ---
 
-### 📈 AC2 – Análise Temporal
+## 📈 AC2 – Análise Temporal
 
 - Receita ao longo do tempo  
 - Volume de vendas ao longo do tempo  
 - Comparação Ano a Ano (YoY)  
 - Crescimento mensal (%)  
 - Crescimento anual (%)  
+- Navegação entre páginas  
 
 ---
 
-## Interatividade
+## 🌎 AC3 – Performance Regional
 
-O dashboard permite análises dinâmicas através de:
-
-- Filtros por Categoria  
-- Filtros por Marca  
-- Navegação entre páginas (botões)  
-- Interação entre visuais  
-
----
-
-## Modelagem de Dados
-
-- Modelo estrela (Star Schema)  
-- Criação de Tabela Calendário  
-- Relacionamento 1:N entre calendário e vendas  
-- Padronização da coluna de data para garantir integridade no relacionamento  
-- Uso de funções DAX de Time Intelligence:
-  - SAMEPERIODLASTYEAR  
-  - DATEADD  
-  - CALCULATE  
+- Participação regional no faturamento
+- Volume de vendas por região
+- Receita por região no mapa
+- Ranking de países
+- Ranking de cidades
+- Padronização visual por continente
+- Navegação integrada entre páginas
 
 ---
 
-## Estrutura do Projeto
+# ⚙️ Navegação e Interatividade
 
-```
+O dashboard possui recursos de navegação interativa entre páginas, permitindo uma experiência mais dinâmica e intuitiva.
+
+### Funcionalidades implementadas:
+- Menu lateral interativo
+- Botões de navegação
+- Filtros persistentes
+- Interação automática entre gráficos
+- Navegação integrada entre análises
+- Foco automático no mapa regional
+- Padronização visual entre páginas
+
+---
+
+# 🗂️ Modelagem de Dados
+
+O projeto utiliza modelo estrela (Star Schema), permitindo maior organização e performance analítica.
+
+### Estrutura:
+- Base de Vendas
+- Cadastro de Produtos
+- Cadastro de Clientes
+- Cadastro de Lojas
+- Tabela Calendário
+
+### Recursos utilizados:
+- Relacionamentos 1:N
+- Time Intelligence
+- Medidas DAX
+- Padronização de datas
+- Modelagem dimensional
+
+### Principais funções DAX:
+- CALCULATE
+- DATEADD
+- SAMEPERIODLASTYEAR
+
+---
+
+# 📁 Estrutura do Projeto
+
+```bash
 Sales-Analytics-Dashboard
 │
 ├── dashboard
@@ -120,28 +186,7 @@ Sales-Analytics-Dashboard
 └── docs
     ├── dashboard.png
     ├── dashboard_temporal.png
+    ├── dashboard_regional.png
     ├── AC1_Relatorio.pdf
-    └── AC2_Relatorio.pdf
-```
-
-
----
-
-## Download do Dashboard
-
-[Download do arquivo .PBIX](dashboard/Sales_Analytics_Dashboard.pbix)
-
----
-
-## Documentação
-
-- [AC1 - Relatório](docs/AC1_Relatorio.pdf)  
-- [AC2 - Relatório](docs/AC2_Relatorio.pdf)  
-
----
-
-## Autor
-
-**Thales de Sousa Sampaio**
-
-Projeto acadêmico desenvolvido para a disciplina **Software Product: Analysis, Specification, Project & Implementation**.
+    ├── AC2_Relatorio.pdf
+    └── AC3_Relatorio.pdf
