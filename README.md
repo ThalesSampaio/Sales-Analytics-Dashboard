@@ -204,7 +204,7 @@ O dashboard possui recursos de navegação interativa entre páginas, proporcion
 
 O projeto utiliza um modelo dimensional do tipo **Star Schema**, composto por uma tabela fato e quatro tabelas dimensão.
 
-![Modelo Dimensional](docs/docs/Diagrama_das_Base.png)
+![Modelo Dimensional](docs/docs/Diagrama das Base.png)
 
 ### Tabela Fato
 
