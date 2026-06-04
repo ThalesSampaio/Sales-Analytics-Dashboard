@@ -39,7 +39,7 @@ Desenvolver um dashboard interativo capaz de:
 
 ## 🔹 Página 1 – Visão Geral (AC1)
 
-![Dashboard](docs/dashboard.png)
+![Dashboard](docs/Dashboard.png)
 
 Permite uma análise geral do desempenho comercial.
 
@@ -59,7 +59,7 @@ Permite uma análise geral do desempenho comercial.
 
 ## 🔹 Página 2 – Análise Temporal (AC2)
 
-![Dashboard Temporal](docs/dashboard_temporal.png)
+![Dashboard Temporal](docs/dashboard_temporal.png.png)
 
 Página desenvolvida para análise da evolução temporal das vendas.
 
@@ -204,7 +204,7 @@ O dashboard possui recursos de navegação interativa entre páginas, proporcion
 
 O projeto utiliza um modelo dimensional do tipo **Star Schema**, composto por uma tabela fato e quatro tabelas dimensão.
 
-![Modelo Dimensional](docs/modelo_dimensional.png)
+![Modelo Dimensional](docs/docs/Diagrama_das_Base.png)
 
 ### Tabela Fato
 
